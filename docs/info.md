@@ -9,12 +9,18 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+* An 8 bit lfsr powers a random number generator between 1 and 6. Psuedo random number generated using the last three bits of the lfsr.
+* When the user turns the dipswitch at locaiton 0 (LSB) to on the number given on the next clock cycle is locked in as the dice roll.
+* To roll a number number reset the 0 dipswitch (LSB) to off, and turn it back on again.
+* When dipswitch is off dice outputs 0 to seven segment display.
+* Note: if the dipswitch at locaiton 0 (LSB) is turned on at startup 0 will be returned / show on the seven second display until it is turned off and back on again.
 
 ## How to test
 
-Explain how to use your project
+Test by varying timing of dipswitch 0's (LSB) input to on and off.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Uses on board dipswitches, and 7 segment display.
+
+## Fun Images
