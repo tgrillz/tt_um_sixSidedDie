@@ -13,7 +13,7 @@ You can also include images in this folder and reference them in the markdown. E
 * When the user turns the dipswitch at locaiton 0 (LSB) to on the number given on the next clock cycle is locked in as the dice roll.
 * To roll a number number reset the 0 dipswitch (LSB) to off, and turn it back on again.
 * When dipswitch is off dice outputs 0 to seven segment display.
-* Note: if the dipswitch at locaiton 0 (LSB) is turned on at startup 0 will be returned / show on the seven second display until it is turned off and back on again.
+* Note: if the dipswitch at locaiton 0 (LSB) is turned on at startup 0 will be returned / show on the seven segment display until it is turned off and back on again.
 
 ## How to test
 
